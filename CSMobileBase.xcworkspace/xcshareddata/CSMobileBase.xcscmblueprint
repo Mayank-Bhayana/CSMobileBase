@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "60BA6DA13BE7047237E5414FFE30A1DC77F92478",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "640BD1DC34E28034CE9A4370B955179137D285B2" : 9223372036854775807,
+    "60BA6DA13BE7047237E5414FFE30A1DC77F92478" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BB04875E-B92D-4611-BA23-98388CA60A15",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "640BD1DC34E28034CE9A4370B955179137D285B2" : "..",
+    "60BA6DA13BE7047237E5414FFE30A1DC77F92478" : "CSMobileBase%20copy\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CSMobileBase",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CSMobileBase.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:MayankBhayana\/CSMobileBase.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "60BA6DA13BE7047237E5414FFE30A1DC77F92478"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.textron.com:pkemba\/tsv-field-service.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "640BD1DC34E28034CE9A4370B955179137D285B2"
+    }
+  ]
+}

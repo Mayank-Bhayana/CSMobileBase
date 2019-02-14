@@ -1,0 +1,1419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A563FAC3B888D8D4FE3AE89 /* Pods_CSMobileBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FD1731F4FF058B7088C486 /* Pods_CSMobileBase.framework */; };
+		2F1212491D2EABAF000A5703 /* CSRecordTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1212481D2EABAF000A5703 /* CSRecordTypeTests.swift */; };
+		2F12124B1D2EADB5000A5703 /* CSFieldLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F12124A1D2EADB5000A5703 /* CSFieldLayoutTests.swift */; };
+		2F14A3921D42E3D10084BBCA /* CSAddressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F14A3911D42E3D10084BBCA /* CSAddressTests.swift */; };
+		2FC252731D34522E00496EAC /* CSPageLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC252721D34522E00496EAC /* CSPageLayoutTests.swift */; };
+		2FDA93E91D39CD9E003FE4EA /* NSURLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA93E81D39CD9E003FE4EA /* NSURLTests.swift */; };
+		2FE27E4C1D3551F100EF124E /* CSObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE27E4B1D3551F100EF124E /* CSObjectTests.swift */; };
+		2FED404C1D2D6EF6002B594C /* CSMobileBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA015761D1DD313009DB715 /* CSMobileBase.framework */; };
+		2FED40521D2D6FD6002B594C /* CSRecordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB5C2811D219E950044F8B1 /* CSRecordTests.swift */; };
+		2FED40531D2D6FD8002B594C /* CSQueryBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1007F81D232E9F002CE77A /* CSQueryBuilderTests.swift */; };
+		2FED40541D2D6FDA002B594C /* CSFieldSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1007F61D232E87002CE77A /* CSFieldSetTests.swift */; };
+		A407BB9E1EA7B4120022363E /* HerokuSyncUpTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A407BB9C1EA16BB90022363E /* HerokuSyncUpTarget.swift */; };
+		A428471A1E9EBDE100DD061A /* CSRecordStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42847161E9EBDE100DD061A /* CSRecordStore.swift */; };
+		A428471B1E9EBDE100DD061A /* CSSettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42847171E9EBDE100DD061A /* CSSettingsStore.swift */; };
+		A428471C1E9EBDE100DD061A /* CSPageLayoutStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42847181E9EBDE100DD061A /* CSPageLayoutStore.swift */; };
+		A42847231E9EE6A500DD061A /* CSMobileBase_Heroku.h in Headers */ = {isa = PBXBuildFile; fileRef = A42847221E9EE6A500DD061A /* CSMobileBase_Heroku.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A479BB271E9D79340084B496 /* HerokuSyncDownTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A479BB241E9D79340084B496 /* HerokuSyncDownTarget.swift */; };
+		A479BB2F1E9D7AAA0084B496 /* RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A479BB2E1E9D7AAA0084B496 /* RawRepresentable.swift */; };
+		A49883CC1EE7331100EDA6C2 /* CSRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49883CB1EE7331100EDA6C2 /* CSRecord.swift */; };
+		A4B3563F1EA005EA0017B21F /* CSRecordCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3563E1EA005EA0017B21F /* CSRecordCreateViewController.swift */; };
+		A4B356401EA005EA0017B21F /* CSRecordCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3563E1EA005EA0017B21F /* CSRecordCreateViewController.swift */; };
+		A4B356421EA006340017B21F /* CSValidationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B356411EA006340017B21F /* CSValidationInfo.swift */; };
+		A4B356431EA006340017B21F /* CSValidationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B356411EA006340017B21F /* CSValidationInfo.swift */; };
+		A4BA60CC1E9EE95700E05CDC /* NSDictionary+LowercasedKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E24EA61E9EBA6200407172 /* NSDictionary+LowercasedKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4CCC7CB1EB03E3600002670 /* CSRecordStoreBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CCC7CA1EB03E3600002670 /* CSRecordStoreBase.swift */; };
+		A4CCC7CC1EB03E3600002670 /* CSRecordStoreBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CCC7CA1EB03E3600002670 /* CSRecordStoreBase.swift */; };
+		A4E24EAA1E9EBA6200407172 /* CSAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E621E9EBA6200407172 /* CSAddress.swift */; };
+		A4E24EAB1E9EBA6200407172 /* CSAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E621E9EBA6200407172 /* CSAddress.swift */; };
+		A4E24EAC1E9EBA6200407172 /* CSAddressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E631E9EBA6200407172 /* CSAddressCell.swift */; };
+		A4E24EAD1E9EBA6200407172 /* CSAddressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E631E9EBA6200407172 /* CSAddressCell.swift */; };
+		A4E24EAE1E9EBA6200407172 /* CSAddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E641E9EBA6200407172 /* CSAddressCell.xib */; };
+		A4E24EAF1E9EBA6200407172 /* CSAddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E641E9EBA6200407172 /* CSAddressCell.xib */; };
+		A4E24EB01E9EBA6200407172 /* CSBooleanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E651E9EBA6200407172 /* CSBooleanCell.swift */; };
+		A4E24EB11E9EBA6200407172 /* CSBooleanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E651E9EBA6200407172 /* CSBooleanCell.swift */; };
+		A4E24EB21E9EBA6200407172 /* CSBooleanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E661E9EBA6200407172 /* CSBooleanCell.xib */; };
+		A4E24EB31E9EBA6200407172 /* CSBooleanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E661E9EBA6200407172 /* CSBooleanCell.xib */; };
+		A4E24EB41E9EBA6200407172 /* CSCurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E671E9EBA6200407172 /* CSCurrencyCell.swift */; };
+		A4E24EB51E9EBA6200407172 /* CSCurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E671E9EBA6200407172 /* CSCurrencyCell.swift */; };
+		A4E24EB61E9EBA6200407172 /* CSCurrencyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E681E9EBA6200407172 /* CSCurrencyCell.xib */; };
+		A4E24EB71E9EBA6200407172 /* CSCurrencyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E681E9EBA6200407172 /* CSCurrencyCell.xib */; };
+		A4E24EB81E9EBA6200407172 /* CSDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E691E9EBA6200407172 /* CSDateCell.swift */; };
+		A4E24EB91E9EBA6200407172 /* CSDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E691E9EBA6200407172 /* CSDateCell.swift */; };
+		A4E24EBA1E9EBA6200407172 /* CSDateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E6A1E9EBA6200407172 /* CSDateCell.xib */; };
+		A4E24EBB1E9EBA6200407172 /* CSDateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E6A1E9EBA6200407172 /* CSDateCell.xib */; };
+		A4E24EBC1E9EBA6200407172 /* CSDateTimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E6B1E9EBA6200407172 /* CSDateTimeCell.swift */; };
+		A4E24EBD1E9EBA6200407172 /* CSDateTimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E6B1E9EBA6200407172 /* CSDateTimeCell.swift */; };
+		A4E24EBE1E9EBA6200407172 /* CSDateTimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E6C1E9EBA6200407172 /* CSDateTimeCell.xib */; };
+		A4E24EBF1E9EBA6200407172 /* CSDateTimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E6C1E9EBA6200407172 /* CSDateTimeCell.xib */; };
+		A4E24EC01E9EBA6200407172 /* CSDoubleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E6D1E9EBA6200407172 /* CSDoubleCell.swift */; };
+		A4E24EC11E9EBA6200407172 /* CSDoubleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E6D1E9EBA6200407172 /* CSDoubleCell.swift */; };
+		A4E24EC21E9EBA6200407172 /* CSDoubleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E6E1E9EBA6200407172 /* CSDoubleCell.xib */; };
+		A4E24EC31E9EBA6200407172 /* CSDoubleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E6E1E9EBA6200407172 /* CSDoubleCell.xib */; };
+		A4E24EC41E9EBA6200407172 /* CSEmailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E6F1E9EBA6200407172 /* CSEmailCell.swift */; };
+		A4E24EC51E9EBA6200407172 /* CSEmailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E6F1E9EBA6200407172 /* CSEmailCell.swift */; };
+		A4E24EC61E9EBA6200407172 /* CSEmailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E701E9EBA6200407172 /* CSEmailCell.xib */; };
+		A4E24EC71E9EBA6200407172 /* CSEmailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E701E9EBA6200407172 /* CSEmailCell.xib */; };
+		A4E24EC81E9EBA6200407172 /* CSExtraTypeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E711E9EBA6200407172 /* CSExtraTypeInfo.swift */; };
+		A4E24EC91E9EBA6200407172 /* CSExtraTypeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E711E9EBA6200407172 /* CSExtraTypeInfo.swift */; };
+		A4E24ECA1E9EBA6200407172 /* CSField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E721E9EBA6200407172 /* CSField.swift */; };
+		A4E24ECB1E9EBA6200407172 /* CSField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E721E9EBA6200407172 /* CSField.swift */; };
+		A4E24ECC1E9EBA6200407172 /* CSFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E731E9EBA6200407172 /* CSFieldCell.swift */; };
+		A4E24ECD1E9EBA6200407172 /* CSFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E731E9EBA6200407172 /* CSFieldCell.swift */; };
+		A4E24ECE1E9EBA6200407172 /* CSFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E741E9EBA6200407172 /* CSFieldCell.xib */; };
+		A4E24ECF1E9EBA6200407172 /* CSFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E741E9EBA6200407172 /* CSFieldCell.xib */; };
+		A4E24ED01E9EBA6200407172 /* CSFieldDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E751E9EBA6200407172 /* CSFieldDetail.swift */; };
+		A4E24ED11E9EBA6200407172 /* CSFieldDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E751E9EBA6200407172 /* CSFieldDetail.swift */; };
+		A4E24ED21E9EBA6200407172 /* CSFieldLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E761E9EBA6200407172 /* CSFieldLayout.swift */; };
+		A4E24ED31E9EBA6200407172 /* CSFieldLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E761E9EBA6200407172 /* CSFieldLayout.swift */; };
+		A4E24ED41E9EBA6200407172 /* CSFieldSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E771E9EBA6200407172 /* CSFieldSet.swift */; };
+		A4E24ED51E9EBA6200407172 /* CSFieldSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E771E9EBA6200407172 /* CSFieldSet.swift */; };
+		A4E24ED61E9EBA6200407172 /* CSFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E781E9EBA6200407172 /* CSFieldType.swift */; };
+		A4E24ED71E9EBA6200407172 /* CSFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E781E9EBA6200407172 /* CSFieldType.swift */; };
+		A4E24ED81E9EBA6200407172 /* CSIntegerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E791E9EBA6200407172 /* CSIntegerCell.swift */; };
+		A4E24ED91E9EBA6200407172 /* CSIntegerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E791E9EBA6200407172 /* CSIntegerCell.swift */; };
+		A4E24EDA1E9EBA6200407172 /* CSIntegerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E7A1E9EBA6200407172 /* CSIntegerCell.xib */; };
+		A4E24EDB1E9EBA6200407172 /* CSIntegerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E7A1E9EBA6200407172 /* CSIntegerCell.xib */; };
+		A4E24EDC1E9EBA6200407172 /* CSLayoutComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E7B1E9EBA6200407172 /* CSLayoutComponent.swift */; };
+		A4E24EDD1E9EBA6200407172 /* CSLayoutComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E7B1E9EBA6200407172 /* CSLayoutComponent.swift */; };
+		A4E24EDE1E9EBA6200407172 /* CSLayoutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E7C1E9EBA6200407172 /* CSLayoutItem.swift */; };
+		A4E24EDF1E9EBA6200407172 /* CSLayoutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E7C1E9EBA6200407172 /* CSLayoutItem.swift */; };
+		A4E24EE01E9EBA6200407172 /* CSLayoutRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E7D1E9EBA6200407172 /* CSLayoutRow.swift */; };
+		A4E24EE11E9EBA6200407172 /* CSLayoutRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E7D1E9EBA6200407172 /* CSLayoutRow.swift */; };
+		A4E24EE21E9EBA6200407172 /* CSLayoutSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E7E1E9EBA6200407172 /* CSLayoutSection.swift */; };
+		A4E24EE31E9EBA6200407172 /* CSLayoutSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E7E1E9EBA6200407172 /* CSLayoutSection.swift */; };
+		A4E24EE41E9EBA6200407172 /* CSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E7F1E9EBA6200407172 /* CSObject.swift */; };
+		A4E24EE51E9EBA6200407172 /* CSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E7F1E9EBA6200407172 /* CSObject.swift */; };
+		A4E24EE61E9EBA6200407172 /* CSPageLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E801E9EBA6200407172 /* CSPageLayout.swift */; };
+		A4E24EE71E9EBA6200407172 /* CSPageLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E801E9EBA6200407172 /* CSPageLayout.swift */; };
+		A4E24EE81E9EBA6200407172 /* CSPercentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E811E9EBA6200407172 /* CSPercentCell.swift */; };
+		A4E24EE91E9EBA6200407172 /* CSPercentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E811E9EBA6200407172 /* CSPercentCell.swift */; };
+		A4E24EEA1E9EBA6200407172 /* CSPercentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E821E9EBA6200407172 /* CSPercentCell.xib */; };
+		A4E24EEB1E9EBA6200407172 /* CSPercentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E821E9EBA6200407172 /* CSPercentCell.xib */; };
+		A4E24EEC1E9EBA6200407172 /* CSPersonName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E831E9EBA6200407172 /* CSPersonName.swift */; };
+		A4E24EED1E9EBA6200407172 /* CSPersonName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E831E9EBA6200407172 /* CSPersonName.swift */; };
+		A4E24EEE1E9EBA6200407172 /* CSPersonNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E841E9EBA6200407172 /* CSPersonNameCell.swift */; };
+		A4E24EEF1E9EBA6200407172 /* CSPersonNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E841E9EBA6200407172 /* CSPersonNameCell.swift */; };
+		A4E24EF01E9EBA6200407172 /* CSPersonNameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E851E9EBA6200407172 /* CSPersonNameCell.xib */; };
+		A4E24EF11E9EBA6200407172 /* CSPersonNameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E851E9EBA6200407172 /* CSPersonNameCell.xib */; };
+		A4E24EF21E9EBA6200407172 /* CSPhoneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E861E9EBA6200407172 /* CSPhoneCell.swift */; };
+		A4E24EF31E9EBA6200407172 /* CSPhoneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E861E9EBA6200407172 /* CSPhoneCell.swift */; };
+		A4E24EF41E9EBA6200407172 /* CSPhoneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E871E9EBA6200407172 /* CSPhoneCell.xib */; };
+		A4E24EF51E9EBA6200407172 /* CSPhoneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E871E9EBA6200407172 /* CSPhoneCell.xib */; };
+		A4E24EF61E9EBA6200407172 /* CSPickListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E881E9EBA6200407172 /* CSPickListCell.swift */; };
+		A4E24EF71E9EBA6200407172 /* CSPickListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E881E9EBA6200407172 /* CSPickListCell.swift */; };
+		A4E24EF81E9EBA6200407172 /* CSPickListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E891E9EBA6200407172 /* CSPickListCell.xib */; };
+		A4E24EF91E9EBA6200407172 /* CSPickListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E891E9EBA6200407172 /* CSPickListCell.xib */; };
+		A4E24EFA1E9EBA6200407172 /* CSPickListValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E8A1E9EBA6200407172 /* CSPickListValue.swift */; };
+		A4E24EFB1E9EBA6200407172 /* CSPickListValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E8A1E9EBA6200407172 /* CSPickListValue.swift */; };
+		A4E24EFC1E9EBA6200407172 /* CSQueryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E8B1E9EBA6200407172 /* CSQueryBuilder.swift */; };
+		A4E24EFD1E9EBA6200407172 /* CSQueryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E8B1E9EBA6200407172 /* CSQueryBuilder.swift */; };
+		A4E24EFE1E9EBA6200407172 /* CSRecordBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E8C1E9EBA6200407172 /* CSRecordBase.swift */; };
+		A4E24EFF1E9EBA6200407172 /* CSRecordBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E8C1E9EBA6200407172 /* CSRecordBase.swift */; };
+		A4E24F001E9EBA6200407172 /* CSRecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E8D1E9EBA6200407172 /* CSRecordCell.swift */; };
+		A4E24F011E9EBA6200407172 /* CSRecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E8D1E9EBA6200407172 /* CSRecordCell.swift */; };
+		A4E24F021E9EBA6200407172 /* CSRecordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E8E1E9EBA6200407172 /* CSRecordCell.xib */; };
+		A4E24F031E9EBA6200407172 /* CSRecordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E8E1E9EBA6200407172 /* CSRecordCell.xib */; };
+		A4E24F061E9EBA6200407172 /* CSRecordDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E901E9EBA6200407172 /* CSRecordDetailViewController.swift */; };
+		A4E24F071E9EBA6200407172 /* CSRecordDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E901E9EBA6200407172 /* CSRecordDetailViewController.swift */; };
+		A4E24F081E9EBA6200407172 /* CSRecordListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E911E9EBA6200407172 /* CSRecordListViewController.swift */; };
+		A4E24F091E9EBA6200407172 /* CSRecordListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E911E9EBA6200407172 /* CSRecordListViewController.swift */; };
+		A4E24F0A1E9EBA6200407172 /* CSRecordLookupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E921E9EBA6200407172 /* CSRecordLookupCell.swift */; };
+		A4E24F0B1E9EBA6200407172 /* CSRecordLookupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E921E9EBA6200407172 /* CSRecordLookupCell.swift */; };
+		A4E24F0C1E9EBA6200407172 /* CSRecordLookupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E931E9EBA6200407172 /* CSRecordLookupCell.xib */; };
+		A4E24F0D1E9EBA6200407172 /* CSRecordLookupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E931E9EBA6200407172 /* CSRecordLookupCell.xib */; };
+		A4E24F0E1E9EBA6200407172 /* CSRecordLookupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E941E9EBA6200407172 /* CSRecordLookupViewController.swift */; };
+		A4E24F0F1E9EBA6200407172 /* CSRecordLookupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E941E9EBA6200407172 /* CSRecordLookupViewController.swift */; };
+		A4E24F101E9EBA6200407172 /* CSRecordType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E951E9EBA6200407172 /* CSRecordType.swift */; };
+		A4E24F111E9EBA6200407172 /* CSRecordType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E951E9EBA6200407172 /* CSRecordType.swift */; };
+		A4E24F121E9EBA6200407172 /* CSRecordUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E961E9EBA6200407172 /* CSRecordUpdateViewController.swift */; };
+		A4E24F131E9EBA6200407172 /* CSRecordUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E961E9EBA6200407172 /* CSRecordUpdateViewController.swift */; };
+		A4E24F141E9EBA6200407172 /* CSRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E971E9EBA6200407172 /* CSRecordViewController.swift */; };
+		A4E24F151E9EBA6200407172 /* CSRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E971E9EBA6200407172 /* CSRecordViewController.swift */; };
+		A4E24F161E9EBA6200407172 /* CSReferenceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E981E9EBA6200407172 /* CSReferenceCell.swift */; };
+		A4E24F171E9EBA6200407172 /* CSReferenceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E981E9EBA6200407172 /* CSReferenceCell.swift */; };
+		A4E24F181E9EBA6200407172 /* CSReferenceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E991E9EBA6200407172 /* CSReferenceCell.xib */; };
+		A4E24F191E9EBA6200407172 /* CSReferenceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E991E9EBA6200407172 /* CSReferenceCell.xib */; };
+		A4E24F1A1E9EBA6200407172 /* CSSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E9A1E9EBA6200407172 /* CSSettings.swift */; };
+		A4E24F1B1E9EBA6200407172 /* CSSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E9A1E9EBA6200407172 /* CSSettings.swift */; };
+		A4E24F1C1E9EBA6200407172 /* CSSettingsStoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E9B1E9EBA6200407172 /* CSSettingsStoreProtocol.swift */; };
+		A4E24F1D1E9EBA6200407172 /* CSSettingsStoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E9B1E9EBA6200407172 /* CSSettingsStoreProtocol.swift */; };
+		A4E24F1E1E9EBA6200407172 /* CSStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E9C1E9EBA6200407172 /* CSStoreManager.swift */; };
+		A4E24F1F1E9EBA6200407172 /* CSStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E9C1E9EBA6200407172 /* CSStoreManager.swift */; };
+		A4E24F201E9EBA6200407172 /* CSStringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E9D1E9EBA6200407172 /* CSStringCell.swift */; };
+		A4E24F211E9EBA6200407172 /* CSStringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E9D1E9EBA6200407172 /* CSStringCell.swift */; };
+		A4E24F221E9EBA6200407172 /* CSStringCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E9E1E9EBA6200407172 /* CSStringCell.xib */; };
+		A4E24F231E9EBA6200407172 /* CSStringCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24E9E1E9EBA6200407172 /* CSStringCell.xib */; };
+		A4E24F241E9EBA6200407172 /* CSTextAreaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E9F1E9EBA6200407172 /* CSTextAreaCell.swift */; };
+		A4E24F251E9EBA6200407172 /* CSTextAreaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24E9F1E9EBA6200407172 /* CSTextAreaCell.swift */; };
+		A4E24F261E9EBA6200407172 /* CSTextAreaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24EA01E9EBA6200407172 /* CSTextAreaCell.xib */; };
+		A4E24F271E9EBA6200407172 /* CSTextAreaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24EA01E9EBA6200407172 /* CSTextAreaCell.xib */; };
+		A4E24F281E9EBA6200407172 /* CSTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24EA11E9EBA6200407172 /* CSTheme.swift */; };
+		A4E24F291E9EBA6200407172 /* CSTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24EA11E9EBA6200407172 /* CSTheme.swift */; };
+		A4E24F2A1E9EBA6200407172 /* CSUrlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24EA21E9EBA6200407172 /* CSUrlCell.swift */; };
+		A4E24F2B1E9EBA6200407172 /* CSUrlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24EA21E9EBA6200407172 /* CSUrlCell.swift */; };
+		A4E24F2C1E9EBA6200407172 /* CSUrlCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24EA31E9EBA6200407172 /* CSUrlCell.xib */; };
+		A4E24F2D1E9EBA6200407172 /* CSUrlCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E24EA31E9EBA6200407172 /* CSUrlCell.xib */; };
+		A4E24F2E1E9EBA6200407172 /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24EA41E9EBA6200407172 /* NSDate.swift */; };
+		A4E24F2F1E9EBA6200407172 /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24EA41E9EBA6200407172 /* NSDate.swift */; };
+		A4E24F301E9EBA6200407172 /* NSDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24EA51E9EBA6200407172 /* NSDateFormatter.swift */; };
+		A4E24F311E9EBA6200407172 /* NSDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24EA51E9EBA6200407172 /* NSDateFormatter.swift */; };
+		A4E24F321E9EBA6200407172 /* NSDictionary+LowercasedKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E24EA61E9EBA6200407172 /* NSDictionary+LowercasedKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4E24F341E9EBA6200407172 /* NSDictionary+LowercasedKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E24EA71E9EBA6200407172 /* NSDictionary+LowercasedKeys.m */; };
+		A4E24F351E9EBA6200407172 /* NSDictionary+LowercasedKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E24EA71E9EBA6200407172 /* NSDictionary+LowercasedKeys.m */; };
+		A4E24F361E9EBA6200407172 /* NSURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24EA81E9EBA6200407172 /* NSURL.swift */; };
+		A4E24F371E9EBA6200407172 /* NSURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24EA81E9EBA6200407172 /* NSURL.swift */; };
+		A4E24F381E9EBA6200407172 /* SFLocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24EA91E9EBA6200407172 /* SFLocalizedString.swift */; };
+		A4E24F391E9EBA6200407172 /* SFLocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24EA91E9EBA6200407172 /* SFLocalizedString.swift */; };
+		A4E24F4D1E9EBA9A00407172 /* CSMobileBase.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E24F461E9EBA9A00407172 /* CSMobileBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4E24F4E1E9EBA9A00407172 /* CSRestSyncDownFileTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E24F471E9EBA9A00407172 /* CSRestSyncDownFileTarget.swift */; };
+		A4E24F4F1E9EBA9A00407172 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4E24F481E9EBA9A00407172 /* Info.plist */; };
+		C41DA20FD553982D47F8999D /* Pods_CSMobileBase_Heroku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2C4DEB0FFA11392A80CAF5 /* Pods_CSMobileBase_Heroku.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EB72873916FBE2AF2698E7ED /* Pods_CSMobileBaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B57316140849E6ADF59ABC /* Pods_CSMobileBaseTests.framework */; };
+		EE2B1D181EC0DFC50054EDC9 /* CSGeolocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B1D151EC0DE200054EDC9 /* CSGeolocation.swift */; };
+		EE2B1D191EC0DFC60054EDC9 /* CSGeolocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B1D151EC0DE200054EDC9 /* CSGeolocation.swift */; };
+		EE2B1D1B1EC0F3420054EDC9 /* CSGeolocationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2B1D1A1EC0F3420054EDC9 /* CSGeolocationCell.xib */; };
+		EE2B1D1C1EC0F3420054EDC9 /* CSGeolocationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2B1D1A1EC0F3420054EDC9 /* CSGeolocationCell.xib */; };
+		EE2B1D231EC0F7000054EDC9 /* CSGeolocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B1D201EC0F6760054EDC9 /* CSGeolocationCell.swift */; };
+		EE2B1D241EC0F7020054EDC9 /* CSGeolocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B1D201EC0F6760054EDC9 /* CSGeolocationCell.swift */; };
+		EE39F61A1EA6D45700E4AA15 /* CSSyncUpTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39F6191EA6D45700E4AA15 /* CSSyncUpTarget.swift */; };
+		EE3D85E41EAA5C7B00DDBCD8 /* ApexSyncDownTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3D85E31EAA5C7B00DDBCD8 /* ApexSyncDownTarget.swift */; };
+		EE3D85E91EAA784C00DDBCD8 /* ApexSyncUpTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3D85E81EAA784C00DDBCD8 /* ApexSyncUpTarget.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FED404D1D2D6EF6002B594C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FA0156D1D1DD313009DB715 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FA015751D1DD313009DB715;
+			remoteInfo = CSMobileBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000C01B14E45CD55A3292B05 /* Pods-CSMobileBase_Heroku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSMobileBase_Heroku.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSMobileBase_Heroku/Pods-CSMobileBase_Heroku.release.xcconfig"; sourceTree = "<group>"; };
+		2F02B00B1D2DBD29002D2668 /* CSMobileBaseTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CSMobileBaseTests-Bridging-Header.h"; path = "CSMobileBaseTests/CSMobileBaseTests-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		2F1007F61D232E87002CE77A /* CSFieldSetTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSFieldSetTests.swift; sourceTree = "<group>"; };
+		2F1007F81D232E9F002CE77A /* CSQueryBuilderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSQueryBuilderTests.swift; sourceTree = "<group>"; };
+		2F1212481D2EABAF000A5703 /* CSRecordTypeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSRecordTypeTests.swift; sourceTree = "<group>"; };
+		2F12124A1D2EADB5000A5703 /* CSFieldLayoutTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSFieldLayoutTests.swift; sourceTree = "<group>"; };
+		2F14A3911D42E3D10084BBCA /* CSAddressTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSAddressTests.swift; sourceTree = "<group>"; };
+		2FA015761D1DD313009DB715 /* CSMobileBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSMobileBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB5C2811D219E950044F8B1 /* CSRecordTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSRecordTests.swift; sourceTree = "<group>"; };
+		2FC252721D34522E00496EAC /* CSPageLayoutTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSPageLayoutTests.swift; sourceTree = "<group>"; };
+		2FDA93E81D39CD9E003FE4EA /* NSURLTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSURLTests.swift; sourceTree = "<group>"; };
+		2FE27E4B1D3551F100EF124E /* CSObjectTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSObjectTests.swift; sourceTree = "<group>"; };
+		2FED40471D2D6EF6002B594C /* CSMobileBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSMobileBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FED404B1D2D6EF6002B594C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		413EE215A768095480FF38A1 /* Pods-CSMobileBaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSMobileBaseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSMobileBaseTests/Pods-CSMobileBaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		7880678FC5EF65DC56B1F97A /* Pods-CSMobileBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSMobileBase.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSMobileBase/Pods-CSMobileBase.release.xcconfig"; sourceTree = "<group>"; };
+		A407BB9C1EA16BB90022363E /* HerokuSyncUpTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HerokuSyncUpTarget.swift; path = Heroku/HerokuSyncUpTarget.swift; sourceTree = "<group>"; };
+		A42847161E9EBDE100DD061A /* CSRecordStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSRecordStore.swift; path = Salesforce/CSRecordStore.swift; sourceTree = "<group>"; };
+		A42847171E9EBDE100DD061A /* CSSettingsStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSSettingsStore.swift; path = Salesforce/CSSettingsStore.swift; sourceTree = "<group>"; };
+		A42847181E9EBDE100DD061A /* CSPageLayoutStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSPageLayoutStore.swift; path = Salesforce/CSPageLayoutStore.swift; sourceTree = "<group>"; };
+		A428471E1E9EC43300DD061A /* CSMobileBase copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CSMobileBase copy-Info.plist"; path = "Heroku/CSMobileBase copy-Info.plist"; sourceTree = "<group>"; };
+		A42847221E9EE6A500DD061A /* CSMobileBase_Heroku.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSMobileBase_Heroku.h; path = Heroku/CSMobileBase_Heroku.h; sourceTree = "<group>"; };
+		A479BB221E9D768C0084B496 /* CSMobileBase_Heroku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSMobileBase_Heroku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A479BB241E9D79340084B496 /* HerokuSyncDownTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HerokuSyncDownTarget.swift; path = Heroku/HerokuSyncDownTarget.swift; sourceTree = "<group>"; };
+		A479BB2B1E9D7A8B0084B496 /* RawRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RawRepresentable.swift; path = Heroku/RawRepresentable.swift; sourceTree = "<group>"; };
+		A479BB2E1E9D7AAA0084B496 /* RawRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RawRepresentable.swift; path = Salesforce/RawRepresentable.swift; sourceTree = "<group>"; };
+		A49883C91EE7324C00EDA6C2 /* CSRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSRecord.swift; path = Heroku/CSRecord.swift; sourceTree = "<group>"; };
+		A49883CB1EE7331100EDA6C2 /* CSRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSRecord.swift; path = Salesforce/CSRecord.swift; sourceTree = "<group>"; };
+		A4B3563E1EA005EA0017B21F /* CSRecordCreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSRecordCreateViewController.swift; path = General/CSRecordCreateViewController.swift; sourceTree = "<group>"; };
+		A4B356411EA006340017B21F /* CSValidationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSValidationInfo.swift; path = General/CSValidationInfo.swift; sourceTree = "<group>"; };
+		A4CCC7CA1EB03E3600002670 /* CSRecordStoreBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSRecordStoreBase.swift; path = General/CSRecordStoreBase.swift; sourceTree = "<group>"; };
+		A4E24E621E9EBA6200407172 /* CSAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSAddress.swift; path = General/CSAddress.swift; sourceTree = "<group>"; };
+		A4E24E631E9EBA6200407172 /* CSAddressCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSAddressCell.swift; path = General/CSAddressCell.swift; sourceTree = "<group>"; };
+		A4E24E641E9EBA6200407172 /* CSAddressCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CSAddressCell.xib; path = General/CSAddressCell.xib; sourceTree = "<group>"; };
+		A4E24E651E9EBA6200407172 /* CSBooleanCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSBooleanCell.swift; path = General/CSBooleanCell.swift; sourceTree = "<group>"; };
+		A4E24E661E9EBA6200407172 /* CSBooleanCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CSBooleanCell.xib; path = General/CSBooleanCell.xib; sourceTree = "<group>"; };
+		A4E24E671E9EBA6200407172 /* CSCurrencyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSCurrencyCell.swift; path = General/CSCurrencyCell.swift; sourceTree = "<group>"; };
+		A4E24E681E9EBA6200407172 /* CSCurrencyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CSCurrencyCell.xib; path = General/CSCurrencyCell.xib; sourceTree = "<group>"; };
+		A4E24E691E9EBA6200407172 /* CSDateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSDateCell.swift; path = General/CSDateCell.swift; sourceTree = "<group>"; };
+		A4E24E6A1E9EBA6200407172 /* CSDateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CSDateCell.xib; path = General/CSDateCell.xib; sourceTree = "<group>"; };
+		A4E24E6B1E9EBA6200407172 /* CSDateTimeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSDateTimeCell.swift; path = General/CSDateTimeCell.swift; sourceTree = "<group>"; };
+		A4E24E6C1E9EBA6200407172 /* CSDateTimeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CSDateTimeCell.xib; path = General/CSDateTimeCell.xib; sourceTree = "<group>"; };
+		A4E24E6D1E9EBA6200407172 /* CSDoubleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSDoubleCell.swift; path = General/CSDoubleCell.swift; sourceTree = "<group>"; };
+		A4E24E6E1E9EBA6200407172 /* CSDoubleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CSDoubleCell.xib; path = General/CSDoubleCell.xib; sourceTree = "<group>"; };
+		A4E24E6F1E9EBA6200407172 /* CSEmailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSEmailCell.swift; path = General/CSEmailCell.swift; sourceTree = "<group>"; };
+		A4E24E701E9EBA6200407172 /* CSEmailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CSEmailCell.xib; path = General/CSEmailCell.xib; sourceTree = "<group>"; };
+		A4E24E711E9EBA6200407172 /* CSExtraTypeInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSExtraTypeInfo.swift; path = General/CSExtraTypeInfo.swift; sourceTree = "<group>"; };
+		A4E24E721E9EBA6200407172 /* CSField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSField.swift; path = General/CSField.swift; sourceTree = "<group>"; };
+		A4E24E731E9EBA6200407172 /* CSFieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSFieldCell.swift; path = General/CSFieldCell.swift; sourceTree = "<group>"; };
+		A4E24E741E9EBA6200407172 /* CSFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CSFieldCell.xib; path = General/CSFieldCell.xib; sourceTree = "<group>"; };
+		A4E24E751E9EBA6200407172 /* CSFieldDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSFieldDetail.swift; path = General/CSFieldDetail.swift; sourceTree = "<group>"; };
+		A4E24E761E9EBA6200407172 /* CSFieldLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSFieldLayout.swift; path = General/CSFieldLayout.swift; sourceTree = "<group>"; };
+		A4E24E771E9EBA6200407172 /* CSFieldSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSFieldSet.swift; path = General/CSFieldSet.swift; sourceTree = "<group>"; };
+		A4E24E781E9EBA6200407172 /* CSFieldType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSFieldType.swift; path = General/CSFieldType.swift; sourceTree = "<group>"; };
+		A4E24E791E9EBA6200407172 /* CSIntegerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSIntegerCell.swift; path = General/CSIntegerCell.swift; sourceTree = "<group>"; };
+		A4E24E7A1E9EBA6200407172 /* CSIntegerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CSIntegerCell.xib; path = General/CSIntegerCell.xib; sourceTree = "<group>"; };
+		A4E24E7B1E9EBA6200407172 /* CSLayoutComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSLayoutComponent.swift; path = General/CSLayoutComponent.swift; sourceTree = "<group>"; };
+		A4E24E7C1E9EBA6200407172 /* CSLayoutItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSLayoutItem.swift; path = General/CSLayoutItem.swift; sourceTree = "<group>"; };
+		A4E24E7D1E9EBA6200407172 /* CSLayoutRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSLayoutRow.swift; path = General/CSLayoutRow.swift; sourceTree = "<group>"; };
+		A4E24E7E1E9EBA6200407172 /* CSLayoutSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSLayoutSection.swift; path = General/CSLayoutSection.swift; sourceTree = "<group>"; };
+		A4E24E7F1E9EBA6200407172 /* CSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSObject.swift; path = General/CSObject.swift; sourceTree = "<group>"; };
+		A4E24E801E9EBA6200407172 /* CSPageLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSPageLayout.swift; path = General/CSPageLayout.swift; sourceTree = "<group>"; };
+		A4E24E811E9EBA6200407172 /* CSPercentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSPercentCell.swift; path = General/CSPercentCell.swift; sourceTree = "<group>"; };
+		A4E24E821E9EBA6200407172 /* CSPercentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CSPercentCell.xib; path = General/CSPercentCell.xib; sourceTree = "<group>"; };
+		A4E24E831E9EBA6200407172 /* CSPersonName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSPersonName.swift; path = General/CSPersonName.swift; sourceTree = "<group>"; };
+		A4E24E841E9EBA6200407172 /* CSPersonNameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSPersonNameCell.swift; path = General/CSPersonNameCell.swift; sourceTree = "<group>"; };
+		A4E24E851E9EBA6200407172 /* CSPersonNameCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CSPersonNameCell.xib; path = General/CSPersonNameCell.xib; sourceTree = "<group>"; };
+		A4E24E861E9EBA6200407172 /* CSPhoneCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSPhoneCell.swift; path = General/CSPhoneCell.swift; sourceTree = "<group>"; };
+		A4E24E871E9EBA6200407172 /* CSPhoneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CSPhoneCell.xib; path = General/CSPhoneCell.xib; sourceTree = "<group>"; };
+		A4E24E881E9EBA6200407172 /* CSPickListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSPickListCell.swift; path = General/CSPickListCell.swift; sourceTree = "<group>"; };
+		A4E24E891E9EBA6200407172 /* CSPickListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CSPickListCell.xib; path = General/CSPickListCell.xib; sourceTree = "<group>"; };
+		A4E24E8A1E9EBA6200407172 /* CSPickListValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSPickListValue.swift; path = General/CSPickListValue.swift; sourceTree = "<group>"; };
+		A4E24E8B1E9EBA6200407172 /* CSQueryBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSQueryBuilder.swift; path = General/CSQueryBuilder.swift; sourceTree = "<group>"; };
+		A4E24E8C1E9EBA6200407172 /* CSRecordBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSRecordBase.swift; path = General/CSRecordBase.swift; sourceTree = "<group>"; };
+		A4E24E8D1E9EBA6200407172 /* CSRecordCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSRecordCell.swift; path = General/CSRecordCell.swift; sourceTree = "<group>"; };
+		A4E24E8E1E9EBA6200407172 /* CSRecordCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CSRecordCell.xib; path = General/CSRecordCell.xib; sourceTree = "<group>"; };
+		A4E24E901E9EBA6200407172 /* CSRecordDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSRecordDetailViewController.swift; path = General/CSRecordDetailViewController.swift; sourceTree = "<group>"; };
+		A4E24E911E9EBA6200407172 /* CSRecordListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSRecordListViewController.swift; path = General/CSRecordListViewController.swift; sourceTree = "<group>"; };
+		A4E24E921E9EBA6200407172 /* CSRecordLookupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSRecordLookupCell.swift; path = General/CSRecordLookupCell.swift; sourceTree = "<group>"; };
+		A4E24E931E9EBA6200407172 /* CSRecordLookupCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CSRecordLookupCell.xib; path = General/CSRecordLookupCell.xib; sourceTree = "<group>"; };
+		A4E24E941E9EBA6200407172 /* CSRecordLookupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSRecordLookupViewController.swift; path = General/CSRecordLookupViewController.swift; sourceTree = "<group>"; };
+		A4E24E951E9EBA6200407172 /* CSRecordType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSRecordType.swift; path = General/CSRecordType.swift; sourceTree = "<group>"; };
+		A4E24E961E9EBA6200407172 /* CSRecordUpdateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSRecordUpdateViewController.swift; path = General/CSRecordUpdateViewController.swift; sourceTree = "<group>"; };
+		A4E24E971E9EBA6200407172 /* CSRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSRecordViewController.swift; path = General/CSRecordViewController.swift; sourceTree = "<group>"; };
+		A4E24E981E9EBA6200407172 /* CSReferenceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSReferenceCell.swift; path = General/CSReferenceCell.swift; sourceTree = "<group>"; };
+		A4E24E991E9EBA6200407172 /* CSReferenceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CSReferenceCell.xib; path = General/CSReferenceCell.xib; sourceTree = "<group>"; };
+		A4E24E9A1E9EBA6200407172 /* CSSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSSettings.swift; path = General/CSSettings.swift; sourceTree = "<group>"; };
+		A4E24E9B1E9EBA6200407172 /* CSSettingsStoreProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSSettingsStoreProtocol.swift; path = General/CSSettingsStoreProtocol.swift; sourceTree = "<group>"; };
+		A4E24E9C1E9EBA6200407172 /* CSStoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSStoreManager.swift; path = General/CSStoreManager.swift; sourceTree = "<group>"; };
+		A4E24E9D1E9EBA6200407172 /* CSStringCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSStringCell.swift; path = General/CSStringCell.swift; sourceTree = "<group>"; };
+		A4E24E9E1E9EBA6200407172 /* CSStringCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CSStringCell.xib; path = General/CSStringCell.xib; sourceTree = "<group>"; };
+		A4E24E9F1E9EBA6200407172 /* CSTextAreaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSTextAreaCell.swift; path = General/CSTextAreaCell.swift; sourceTree = "<group>"; };
+		A4E24EA01E9EBA6200407172 /* CSTextAreaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CSTextAreaCell.xib; path = General/CSTextAreaCell.xib; sourceTree = "<group>"; };
+		A4E24EA11E9EBA6200407172 /* CSTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSTheme.swift; path = General/CSTheme.swift; sourceTree = "<group>"; };
+		A4E24EA21E9EBA6200407172 /* CSUrlCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSUrlCell.swift; path = General/CSUrlCell.swift; sourceTree = "<group>"; };
+		A4E24EA31E9EBA6200407172 /* CSUrlCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CSUrlCell.xib; path = General/CSUrlCell.xib; sourceTree = "<group>"; };
+		A4E24EA41E9EBA6200407172 /* NSDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSDate.swift; path = General/NSDate.swift; sourceTree = "<group>"; };
+		A4E24EA51E9EBA6200407172 /* NSDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSDateFormatter.swift; path = General/NSDateFormatter.swift; sourceTree = "<group>"; };
+		A4E24EA61E9EBA6200407172 /* NSDictionary+LowercasedKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+LowercasedKeys.h"; path = "General/NSDictionary+LowercasedKeys.h"; sourceTree = "<group>"; };
+		A4E24EA71E9EBA6200407172 /* NSDictionary+LowercasedKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+LowercasedKeys.m"; path = "General/NSDictionary+LowercasedKeys.m"; sourceTree = "<group>"; };
+		A4E24EA81E9EBA6200407172 /* NSURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSURL.swift; path = General/NSURL.swift; sourceTree = "<group>"; };
+		A4E24EA91E9EBA6200407172 /* SFLocalizedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SFLocalizedString.swift; path = General/SFLocalizedString.swift; sourceTree = "<group>"; };
+		A4E24F3A1E9EBA7F00407172 /* CSPageLayoutStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSPageLayoutStore.swift; path = Heroku/CSPageLayoutStore.swift; sourceTree = "<group>"; };
+		A4E24F3B1E9EBA7F00407172 /* CSRecordStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSRecordStore.swift; path = Heroku/CSRecordStore.swift; sourceTree = "<group>"; };
+		A4E24F3C1E9EBA7F00407172 /* CSSettingsStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSSettingsStore.swift; path = Heroku/CSSettingsStore.swift; sourceTree = "<group>"; };
+		A4E24F461E9EBA9A00407172 /* CSMobileBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSMobileBase.h; path = Salesforce/CSMobileBase.h; sourceTree = "<group>"; };
+		A4E24F471E9EBA9A00407172 /* CSRestSyncDownFileTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSRestSyncDownFileTarget.swift; path = Salesforce/CSRestSyncDownFileTarget.swift; sourceTree = "<group>"; };
+		A4E24F481E9EBA9A00407172 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Salesforce/Info.plist; sourceTree = "<group>"; };
+		B14635C7AFD8744440163D43 /* Pods-CSMobileBase_Heroku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSMobileBase_Heroku.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSMobileBase_Heroku/Pods-CSMobileBase_Heroku.debug.xcconfig"; sourceTree = "<group>"; };
+		B2FD1731F4FF058B7088C486 /* Pods_CSMobileBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSMobileBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78F55CE2A55BE94056C28EC /* Pods-CSMobileBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSMobileBase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSMobileBase/Pods-CSMobileBase.debug.xcconfig"; sourceTree = "<group>"; };
+		D3B57316140849E6ADF59ABC /* Pods_CSMobileBaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSMobileBaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2C4DEB0FFA11392A80CAF5 /* Pods_CSMobileBase_Heroku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSMobileBase_Heroku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E422F420677016079D0162B0 /* Pods-CSMobileBaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSMobileBaseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSMobileBaseTests/Pods-CSMobileBaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE2B1D151EC0DE200054EDC9 /* CSGeolocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSGeolocation.swift; path = General/CSGeolocation.swift; sourceTree = "<group>"; };
+		EE2B1D1A1EC0F3420054EDC9 /* CSGeolocationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CSGeolocationCell.xib; path = General/CSGeolocationCell.xib; sourceTree = "<group>"; };
+		EE2B1D201EC0F6760054EDC9 /* CSGeolocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSGeolocationCell.swift; path = General/CSGeolocationCell.swift; sourceTree = "<group>"; };
+		EE39F6191EA6D45700E4AA15 /* CSSyncUpTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSSyncUpTarget.swift; path = Salesforce/CSSyncUpTarget.swift; sourceTree = "<group>"; };
+		EE3D85E31EAA5C7B00DDBCD8 /* ApexSyncDownTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApexSyncDownTarget.swift; path = Salesforce/ApexSyncDownTarget.swift; sourceTree = "<group>"; };
+		EE3D85E81EAA784C00DDBCD8 /* ApexSyncUpTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApexSyncUpTarget.swift; path = Salesforce/ApexSyncUpTarget.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FA015721D1DD313009DB715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A563FAC3B888D8D4FE3AE89 /* Pods_CSMobileBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FED40441D2D6EF6002B594C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FED404C1D2D6EF6002B594C /* CSMobileBase.framework in Frameworks */,
+				EB72873916FBE2AF2698E7ED /* Pods_CSMobileBaseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A479BB031E9D768C0084B496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41DA20FD553982D47F8999D /* Pods_CSMobileBase_Heroku.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0982E3BB0731C1AD7769A44E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2FD1731F4FF058B7088C486 /* Pods_CSMobileBase.framework */,
+				D3B57316140849E6ADF59ABC /* Pods_CSMobileBaseTests.framework */,
+				DC2C4DEB0FFA11392A80CAF5 /* Pods_CSMobileBase_Heroku.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F14A3941D42EC840084BBCA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A4E24E621E9EBA6200407172 /* CSAddress.swift */,
+				EE2B1D151EC0DE200054EDC9 /* CSGeolocation.swift */,
+				A4E24E801E9EBA6200407172 /* CSPageLayout.swift */,
+				A4E24E831E9EBA6200407172 /* CSPersonName.swift */,
+				A4E24E9A1E9EBA6200407172 /* CSSettings.swift */,
+				A4E24EA11E9EBA6200407172 /* CSTheme.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2F5359B71D58DAA0005E198F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4E24E641E9EBA6200407172 /* CSAddressCell.xib */,
+				A4E24E661E9EBA6200407172 /* CSBooleanCell.xib */,
+				A4E24E681E9EBA6200407172 /* CSCurrencyCell.xib */,
+				A4E24E6A1E9EBA6200407172 /* CSDateCell.xib */,
+				A4E24E6C1E9EBA6200407172 /* CSDateTimeCell.xib */,
+				A4E24E6E1E9EBA6200407172 /* CSDoubleCell.xib */,
+				A4E24E701E9EBA6200407172 /* CSEmailCell.xib */,
+				A4E24E741E9EBA6200407172 /* CSFieldCell.xib */,
+				EE2B1D1A1EC0F3420054EDC9 /* CSGeolocationCell.xib */,
+				A4E24E7A1E9EBA6200407172 /* CSIntegerCell.xib */,
+				A4E24E821E9EBA6200407172 /* CSPercentCell.xib */,
+				A4E24E851E9EBA6200407172 /* CSPersonNameCell.xib */,
+				A4E24E871E9EBA6200407172 /* CSPhoneCell.xib */,
+				A4E24E891E9EBA6200407172 /* CSPickListCell.xib */,
+				A4E24E8E1E9EBA6200407172 /* CSRecordCell.xib */,
+				A4E24E931E9EBA6200407172 /* CSRecordLookupCell.xib */,
+				A4E24E991E9EBA6200407172 /* CSReferenceCell.xib */,
+				A4E24E9E1E9EBA6200407172 /* CSStringCell.xib */,
+				A4E24EA01E9EBA6200407172 /* CSTextAreaCell.xib */,
+				A4E24EA31E9EBA6200407172 /* CSUrlCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		2F5359BA1D58DABC005E198F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A4E24E631E9EBA6200407172 /* CSAddressCell.swift */,
+				A4E24E651E9EBA6200407172 /* CSBooleanCell.swift */,
+				A4E24E671E9EBA6200407172 /* CSCurrencyCell.swift */,
+				A4E24E691E9EBA6200407172 /* CSDateCell.swift */,
+				A4E24E6B1E9EBA6200407172 /* CSDateTimeCell.swift */,
+				A4E24E6D1E9EBA6200407172 /* CSDoubleCell.swift */,
+				A4E24E6F1E9EBA6200407172 /* CSEmailCell.swift */,
+				A4E24E731E9EBA6200407172 /* CSFieldCell.swift */,
+				A4E24E791E9EBA6200407172 /* CSIntegerCell.swift */,
+				A4E24E811E9EBA6200407172 /* CSPercentCell.swift */,
+				A4E24E841E9EBA6200407172 /* CSPersonNameCell.swift */,
+				A4E24E861E9EBA6200407172 /* CSPhoneCell.swift */,
+				A4E24E881E9EBA6200407172 /* CSPickListCell.swift */,
+				A4E24E8D1E9EBA6200407172 /* CSRecordCell.swift */,
+				A4E24E921E9EBA6200407172 /* CSRecordLookupCell.swift */,
+				A4E24E981E9EBA6200407172 /* CSReferenceCell.swift */,
+				EE2B1D201EC0F6760054EDC9 /* CSGeolocationCell.swift */,
+				A4E24E9D1E9EBA6200407172 /* CSStringCell.swift */,
+				A4E24E9F1E9EBA6200407172 /* CSTextAreaCell.swift */,
+				A4E24EA21E9EBA6200407172 /* CSUrlCell.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2FA0156C1D1DD313009DB715 = {
+			isa = PBXGroup;
+			children = (
+				2FA015781D1DD313009DB715 /* CSMobileBase */,
+				2FED40481D2D6EF6002B594C /* CSMobileBaseTests */,
+				2FA015771D1DD313009DB715 /* Products */,
+				9C24D9A710A7ED02E92C171C /* Pods */,
+				0982E3BB0731C1AD7769A44E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2FA015771D1DD313009DB715 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FA015761D1DD313009DB715 /* CSMobileBase.framework */,
+				2FED40471D2D6EF6002B594C /* CSMobileBaseTests.xctest */,
+				A479BB221E9D768C0084B496 /* CSMobileBase_Heroku.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FA015781D1DD313009DB715 /* CSMobileBase */ = {
+			isa = PBXGroup;
+			children = (
+				A4E24E611E9EBA3500407172 /* General */,
+				A479BB2D1E9D7A8F0084B496 /* Salesforce */,
+				A479BB2A1E9D7A720084B496 /* Heroku */,
+			);
+			path = CSMobileBase;
+			sourceTree = "<group>";
+		};
+		2FB2BB8B1D384D8800A77815 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A4B3563E1EA005EA0017B21F /* CSRecordCreateViewController.swift */,
+				A4E24E901E9EBA6200407172 /* CSRecordDetailViewController.swift */,
+				A4E24E911E9EBA6200407172 /* CSRecordListViewController.swift */,
+				A4E24E941E9EBA6200407172 /* CSRecordLookupViewController.swift */,
+				A4E24E961E9EBA6200407172 /* CSRecordUpdateViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2FBAE6681D315A4A005E9CFA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2F5359B71D58DAA0005E198F /* Views */,
+				2F5359BA1D58DABC005E198F /* Models */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		2FED40481D2D6EF6002B594C /* CSMobileBaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F02B00B1D2DBD29002D2668 /* CSMobileBaseTests-Bridging-Header.h */,
+				2FED404B1D2D6EF6002B594C /* Info.plist */,
+				2FE27E4B1D3551F100EF124E /* CSObjectTests.swift */,
+				2FC252721D34522E00496EAC /* CSPageLayoutTests.swift */,
+				2F12124A1D2EADB5000A5703 /* CSFieldLayoutTests.swift */,
+				2F1212481D2EABAF000A5703 /* CSRecordTypeTests.swift */,
+				2F14A3911D42E3D10084BBCA /* CSAddressTests.swift */,
+				2FB5C2811D219E950044F8B1 /* CSRecordTests.swift */,
+				2F1007F61D232E87002CE77A /* CSFieldSetTests.swift */,
+				2F1007F81D232E9F002CE77A /* CSQueryBuilderTests.swift */,
+				2FDA93E81D39CD9E003FE4EA /* NSURLTests.swift */,
+			);
+			path = CSMobileBaseTests;
+			sourceTree = "<group>";
+		};
+		9C24D9A710A7ED02E92C171C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B78F55CE2A55BE94056C28EC /* Pods-CSMobileBase.debug.xcconfig */,
+				7880678FC5EF65DC56B1F97A /* Pods-CSMobileBase.release.xcconfig */,
+				E422F420677016079D0162B0 /* Pods-CSMobileBaseTests.debug.xcconfig */,
+				413EE215A768095480FF38A1 /* Pods-CSMobileBaseTests.release.xcconfig */,
+				B14635C7AFD8744440163D43 /* Pods-CSMobileBase_Heroku.debug.xcconfig */,
+				000C01B14E45CD55A3292B05 /* Pods-CSMobileBase_Heroku.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A479BB2A1E9D7A720084B496 /* Heroku */ = {
+			isa = PBXGroup;
+			children = (
+				A407BB9C1EA16BB90022363E /* HerokuSyncUpTarget.swift */,
+				A42847221E9EE6A500DD061A /* CSMobileBase_Heroku.h */,
+				A428471E1E9EC43300DD061A /* CSMobileBase copy-Info.plist */,
+				A4E24F3A1E9EBA7F00407172 /* CSPageLayoutStore.swift */,
+				A4E24F3B1E9EBA7F00407172 /* CSRecordStore.swift */,
+				A4E24F3C1E9EBA7F00407172 /* CSSettingsStore.swift */,
+				A479BB241E9D79340084B496 /* HerokuSyncDownTarget.swift */,
+				A479BB2B1E9D7A8B0084B496 /* RawRepresentable.swift */,
+				A49883C91EE7324C00EDA6C2 /* CSRecord.swift */,
+			);
+			name = Heroku;
+			sourceTree = "<group>";
+		};
+		A479BB2D1E9D7A8F0084B496 /* Salesforce */ = {
+			isa = PBXGroup;
+			children = (
+				EE3D85E31EAA5C7B00DDBCD8 /* ApexSyncDownTarget.swift */,
+				EE3D85E81EAA784C00DDBCD8 /* ApexSyncUpTarget.swift */,
+				EE39F6191EA6D45700E4AA15 /* CSSyncUpTarget.swift */,
+				A4E24F471E9EBA9A00407172 /* CSRestSyncDownFileTarget.swift */,
+				A4E24F461E9EBA9A00407172 /* CSMobileBase.h */,
+				A4E24F481E9EBA9A00407172 /* Info.plist */,
+				A42847181E9EBDE100DD061A /* CSPageLayoutStore.swift */,
+				A42847161E9EBDE100DD061A /* CSRecordStore.swift */,
+				A42847171E9EBDE100DD061A /* CSSettingsStore.swift */,
+				A479BB2E1E9D7AAA0084B496 /* RawRepresentable.swift */,
+				A49883CB1EE7331100EDA6C2 /* CSRecord.swift */,
+			);
+			name = Salesforce;
+			sourceTree = "<group>";
+		};
+		A4E24E611E9EBA3500407172 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				A4E24E711E9EBA6200407172 /* CSExtraTypeInfo.swift */,
+				A4E24E721E9EBA6200407172 /* CSField.swift */,
+				A4E24E751E9EBA6200407172 /* CSFieldDetail.swift */,
+				A4E24E761E9EBA6200407172 /* CSFieldLayout.swift */,
+				A4E24E771E9EBA6200407172 /* CSFieldSet.swift */,
+				A4E24E781E9EBA6200407172 /* CSFieldType.swift */,
+				A4E24E7B1E9EBA6200407172 /* CSLayoutComponent.swift */,
+				A4E24E7C1E9EBA6200407172 /* CSLayoutItem.swift */,
+				A4E24E7D1E9EBA6200407172 /* CSLayoutRow.swift */,
+				A4E24E7E1E9EBA6200407172 /* CSLayoutSection.swift */,
+				A4E24E7F1E9EBA6200407172 /* CSObject.swift */,
+				A4E24E8A1E9EBA6200407172 /* CSPickListValue.swift */,
+				A4E24E8B1E9EBA6200407172 /* CSQueryBuilder.swift */,
+				A4E24E8C1E9EBA6200407172 /* CSRecordBase.swift */,
+				A4E24E951E9EBA6200407172 /* CSRecordType.swift */,
+				A4E24E971E9EBA6200407172 /* CSRecordViewController.swift */,
+				A4E24E9B1E9EBA6200407172 /* CSSettingsStoreProtocol.swift */,
+				A4E24E9C1E9EBA6200407172 /* CSStoreManager.swift */,
+				A4B356411EA006340017B21F /* CSValidationInfo.swift */,
+				A4CCC7CA1EB03E3600002670 /* CSRecordStoreBase.swift */,
+				2FBAE6681D315A4A005E9CFA /* Cells */,
+				2FB2BB8B1D384D8800A77815 /* Controllers */,
+				EEB90AD51EA13E3300910AC9 /* Extensions */,
+				2F14A3941D42EC840084BBCA /* Models */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		EEB90AD51EA13E3300910AC9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A4E24EA61E9EBA6200407172 /* NSDictionary+LowercasedKeys.h */,
+				A4E24EA71E9EBA6200407172 /* NSDictionary+LowercasedKeys.m */,
+				A4E24EA41E9EBA6200407172 /* NSDate.swift */,
+				A4E24EA51E9EBA6200407172 /* NSDateFormatter.swift */,
+				A4E24EA81E9EBA6200407172 /* NSURL.swift */,
+				A4E24EA91E9EBA6200407172 /* SFLocalizedString.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FA015731D1DD313009DB715 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E24F321E9EBA6200407172 /* NSDictionary+LowercasedKeys.h in Headers */,
+				A4E24F4D1E9EBA9A00407172 /* CSMobileBase.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A479BB051E9D768C0084B496 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BA60CC1E9EE95700E05CDC /* NSDictionary+LowercasedKeys.h in Headers */,
+				A42847231E9EE6A500DD061A /* CSMobileBase_Heroku.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2FA015751D1DD313009DB715 /* CSMobileBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FA0158A1D1DD313009DB715 /* Build configuration list for PBXNativeTarget "CSMobileBase" */;
+			buildPhases = (
+				5A1C2C932D161BAE48BE97CB /* [CP] Check Pods Manifest.lock */,
+				2FA015711D1DD313009DB715 /* Sources */,
+				2FA015721D1DD313009DB715 /* Frameworks */,
+				2FA015731D1DD313009DB715 /* Headers */,
+				2FA015741D1DD313009DB715 /* Resources */,
+				9055CD113DBD536A49F18EEA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSMobileBase;
+			productName = CSMobileBase;
+			productReference = 2FA015761D1DD313009DB715 /* CSMobileBase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2FED40461D2D6EF6002B594C /* CSMobileBaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FED404F1D2D6EF6002B594C /* Build configuration list for PBXNativeTarget "CSMobileBaseTests" */;
+			buildPhases = (
+				1175879C18DEFE4A318A9A0C /* [CP] Check Pods Manifest.lock */,
+				2FED40431D2D6EF6002B594C /* Sources */,
+				2FED40441D2D6EF6002B594C /* Frameworks */,
+				2FED40451D2D6EF6002B594C /* Resources */,
+				73E328969EFE94010893B7BA /* [CP] Embed Pods Frameworks */,
+				D85C6D7819821163D8E8696F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FED404E1D2D6EF6002B594C /* PBXTargetDependency */,
+			);
+			name = CSMobileBaseTests;
+			productName = CSMobileBaseTests;
+			productReference = 2FED40471D2D6EF6002B594C /* CSMobileBaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A479BAC31E9D768C0084B496 /* CSMobileBase_Heroku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A479BB1F1E9D768C0084B496 /* Build configuration list for PBXNativeTarget "CSMobileBase_Heroku" */;
+			buildPhases = (
+				B6074258CF7F58B7DF588247 /* [CP] Check Pods Manifest.lock */,
+				A479BB051E9D768C0084B496 /* Headers */,
+				A479BAC51E9D768C0084B496 /* Sources */,
+				A479BB031E9D768C0084B496 /* Frameworks */,
+				A479BB0A1E9D768C0084B496 /* Resources */,
+				CA55E865FBC05934E95D2F28 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSMobileBase_Heroku;
+			productName = CSMobileBase;
+			productReference = A479BB221E9D768C0084B496 /* CSMobileBase_Heroku.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FA0156D1D1DD313009DB715 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Salesforce;
+				TargetAttributes = {
+					2FA015751D1DD313009DB715 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Manual;
+					};
+					2FED40461D2D6EF6002B594C = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 2FA015701D1DD313009DB715 /* Build configuration list for PBXProject "CSMobileBase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2FA0156C1D1DD313009DB715;
+			productRefGroup = 2FA015771D1DD313009DB715 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FA015751D1DD313009DB715 /* CSMobileBase */,
+				2FED40461D2D6EF6002B594C /* CSMobileBaseTests */,
+				A479BAC31E9D768C0084B496 /* CSMobileBase_Heroku */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FA015741D1DD313009DB715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E24F021E9EBA6200407172 /* CSRecordCell.xib in Resources */,
+				A4E24EF41E9EBA6200407172 /* CSPhoneCell.xib in Resources */,
+				A4E24EC61E9EBA6200407172 /* CSEmailCell.xib in Resources */,
+				A4E24EB21E9EBA6200407172 /* CSBooleanCell.xib in Resources */,
+				A4E24EF01E9EBA6200407172 /* CSPersonNameCell.xib in Resources */,
+				A4E24ECE1E9EBA6200407172 /* CSFieldCell.xib in Resources */,
+				A4E24EBE1E9EBA6200407172 /* CSDateTimeCell.xib in Resources */,
+				A4E24EC21E9EBA6200407172 /* CSDoubleCell.xib in Resources */,
+				A4E24F4F1E9EBA9A00407172 /* Info.plist in Resources */,
+				A4E24EDA1E9EBA6200407172 /* CSIntegerCell.xib in Resources */,
+				A4E24F181E9EBA6200407172 /* CSReferenceCell.xib in Resources */,
+				A4E24EAE1E9EBA6200407172 /* CSAddressCell.xib in Resources */,
+				A4E24F221E9EBA6200407172 /* CSStringCell.xib in Resources */,
+				A4E24EB61E9EBA6200407172 /* CSCurrencyCell.xib in Resources */,
+				A4E24F261E9EBA6200407172 /* CSTextAreaCell.xib in Resources */,
+				EE2B1D1B1EC0F3420054EDC9 /* CSGeolocationCell.xib in Resources */,
+				A4E24F2C1E9EBA6200407172 /* CSUrlCell.xib in Resources */,
+				A4E24EBA1E9EBA6200407172 /* CSDateCell.xib in Resources */,
+				A4E24EEA1E9EBA6200407172 /* CSPercentCell.xib in Resources */,
+				A4E24EF81E9EBA6200407172 /* CSPickListCell.xib in Resources */,
+				A4E24F0C1E9EBA6200407172 /* CSRecordLookupCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FED40451D2D6EF6002B594C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A479BB0A1E9D768C0084B496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E24F031E9EBA6200407172 /* CSRecordCell.xib in Resources */,
+				A4E24EF51E9EBA6200407172 /* CSPhoneCell.xib in Resources */,
+				A4E24EC71E9EBA6200407172 /* CSEmailCell.xib in Resources */,
+				A4E24EB31E9EBA6200407172 /* CSBooleanCell.xib in Resources */,
+				A4E24EF11E9EBA6200407172 /* CSPersonNameCell.xib in Resources */,
+				A4E24ECF1E9EBA6200407172 /* CSFieldCell.xib in Resources */,
+				A4E24EBF1E9EBA6200407172 /* CSDateTimeCell.xib in Resources */,
+				A4E24EC31E9EBA6200407172 /* CSDoubleCell.xib in Resources */,
+				EE2B1D1C1EC0F3420054EDC9 /* CSGeolocationCell.xib in Resources */,
+				A4E24EDB1E9EBA6200407172 /* CSIntegerCell.xib in Resources */,
+				A4E24F191E9EBA6200407172 /* CSReferenceCell.xib in Resources */,
+				A4E24EAF1E9EBA6200407172 /* CSAddressCell.xib in Resources */,
+				A4E24F231E9EBA6200407172 /* CSStringCell.xib in Resources */,
+				A4E24EB71E9EBA6200407172 /* CSCurrencyCell.xib in Resources */,
+				A4E24F271E9EBA6200407172 /* CSTextAreaCell.xib in Resources */,
+				A4E24F2D1E9EBA6200407172 /* CSUrlCell.xib in Resources */,
+				A4E24EBB1E9EBA6200407172 /* CSDateCell.xib in Resources */,
+				A4E24EEB1E9EBA6200407172 /* CSPercentCell.xib in Resources */,
+				A4E24EF91E9EBA6200407172 /* CSPickListCell.xib in Resources */,
+				A4E24F0D1E9EBA6200407172 /* CSRecordLookupCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1175879C18DEFE4A318A9A0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A1C2C932D161BAE48BE97CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		73E328969EFE94010893B7BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CSMobileBaseTests/Pods-CSMobileBaseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9055CD113DBD536A49F18EEA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CSMobileBase/Pods-CSMobileBase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6074258CF7F58B7DF588247 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA55E865FBC05934E95D2F28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CSMobileBase_Heroku/Pods-CSMobileBase_Heroku-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D85C6D7819821163D8E8696F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CSMobileBaseTests/Pods-CSMobileBaseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FA015711D1DD313009DB715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2B1D241EC0F7020054EDC9 /* CSGeolocationCell.swift in Sources */,
+				A4E24F121E9EBA6200407172 /* CSRecordUpdateViewController.swift in Sources */,
+				A4E24EEC1E9EBA6200407172 /* CSPersonName.swift in Sources */,
+				A428471A1E9EBDE100DD061A /* CSRecordStore.swift in Sources */,
+				A4E24ED01E9EBA6200407172 /* CSFieldDetail.swift in Sources */,
+				A4E24F0E1E9EBA6200407172 /* CSRecordLookupViewController.swift in Sources */,
+				A4E24F0A1E9EBA6200407172 /* CSRecordLookupCell.swift in Sources */,
+				A4E24F281E9EBA6200407172 /* CSTheme.swift in Sources */,
+				A4E24F161E9EBA6200407172 /* CSReferenceCell.swift in Sources */,
+				EE3D85E91EAA784C00DDBCD8 /* ApexSyncUpTarget.swift in Sources */,
+				A4E24F001E9EBA6200407172 /* CSRecordCell.swift in Sources */,
+				A4E24EB01E9EBA6200407172 /* CSBooleanCell.swift in Sources */,
+				A4E24F081E9EBA6200407172 /* CSRecordListViewController.swift in Sources */,
+				A49883CC1EE7331100EDA6C2 /* CSRecord.swift in Sources */,
+				A428471C1E9EBDE100DD061A /* CSPageLayoutStore.swift in Sources */,
+				A4E24F1E1E9EBA6200407172 /* CSStoreManager.swift in Sources */,
+				A4E24EAC1E9EBA6200407172 /* CSAddressCell.swift in Sources */,
+				A4E24EBC1E9EBA6200407172 /* CSDateTimeCell.swift in Sources */,
+				A4E24EE01E9EBA6200407172 /* CSLayoutRow.swift in Sources */,
+				A4E24EAA1E9EBA6200407172 /* CSAddress.swift in Sources */,
+				A4E24F1C1E9EBA6200407172 /* CSSettingsStoreProtocol.swift in Sources */,
+				A4E24F341E9EBA6200407172 /* NSDictionary+LowercasedKeys.m in Sources */,
+				A4E24EC81E9EBA6200407172 /* CSExtraTypeInfo.swift in Sources */,
+				A4E24F201E9EBA6200407172 /* CSStringCell.swift in Sources */,
+				A4E24EC41E9EBA6200407172 /* CSEmailCell.swift in Sources */,
+				A4E24F2A1E9EBA6200407172 /* CSUrlCell.swift in Sources */,
+				A4E24EDC1E9EBA6200407172 /* CSLayoutComponent.swift in Sources */,
+				A4E24F1A1E9EBA6200407172 /* CSSettings.swift in Sources */,
+				A4E24ECA1E9EBA6200407172 /* CSField.swift in Sources */,
+				A4E24EE41E9EBA6200407172 /* CSObject.swift in Sources */,
+				A4E24EE61E9EBA6200407172 /* CSPageLayout.swift in Sources */,
+				EE3D85E41EAA5C7B00DDBCD8 /* ApexSyncDownTarget.swift in Sources */,
+				A4B3563F1EA005EA0017B21F /* CSRecordCreateViewController.swift in Sources */,
+				A4E24F2E1E9EBA6200407172 /* NSDate.swift in Sources */,
+				A4E24F061E9EBA6200407172 /* CSRecordDetailViewController.swift in Sources */,
+				A4CCC7CB1EB03E3600002670 /* CSRecordStoreBase.swift in Sources */,
+				A4E24ED61E9EBA6200407172 /* CSFieldType.swift in Sources */,
+				A4B356421EA006340017B21F /* CSValidationInfo.swift in Sources */,
+				A4E24EB41E9EBA6200407172 /* CSCurrencyCell.swift in Sources */,
+				A4E24EDE1E9EBA6200407172 /* CSLayoutItem.swift in Sources */,
+				A479BB2F1E9D7AAA0084B496 /* RawRepresentable.swift in Sources */,
+				A4E24EEE1E9EBA6200407172 /* CSPersonNameCell.swift in Sources */,
+				A4E24F301E9EBA6200407172 /* NSDateFormatter.swift in Sources */,
+				A4E24EF21E9EBA6200407172 /* CSPhoneCell.swift in Sources */,
+				A428471B1E9EBDE100DD061A /* CSSettingsStore.swift in Sources */,
+				A4E24ED81E9EBA6200407172 /* CSIntegerCell.swift in Sources */,
+				A4E24EC01E9EBA6200407172 /* CSDoubleCell.swift in Sources */,
+				A4E24ED41E9EBA6200407172 /* CSFieldSet.swift in Sources */,
+				A4E24ECC1E9EBA6200407172 /* CSFieldCell.swift in Sources */,
+				A4E24EE21E9EBA6200407172 /* CSLayoutSection.swift in Sources */,
+				A4E24EF61E9EBA6200407172 /* CSPickListCell.swift in Sources */,
+				A4E24F361E9EBA6200407172 /* NSURL.swift in Sources */,
+				A4E24EE81E9EBA6200407172 /* CSPercentCell.swift in Sources */,
+				A4E24EFE1E9EBA6200407172 /* CSRecordBase.swift in Sources */,
+				A4E24EFA1E9EBA6200407172 /* CSPickListValue.swift in Sources */,
+				A4E24F141E9EBA6200407172 /* CSRecordViewController.swift in Sources */,
+				A4E24F241E9EBA6200407172 /* CSTextAreaCell.swift in Sources */,
+				EE2B1D181EC0DFC50054EDC9 /* CSGeolocation.swift in Sources */,
+				A4E24F4E1E9EBA9A00407172 /* CSRestSyncDownFileTarget.swift in Sources */,
+				A4E24F381E9EBA6200407172 /* SFLocalizedString.swift in Sources */,
+				A4E24ED21E9EBA6200407172 /* CSFieldLayout.swift in Sources */,
+				A4E24EFC1E9EBA6200407172 /* CSQueryBuilder.swift in Sources */,
+				A4E24F101E9EBA6200407172 /* CSRecordType.swift in Sources */,
+				EE39F61A1EA6D45700E4AA15 /* CSSyncUpTarget.swift in Sources */,
+				A4E24EB81E9EBA6200407172 /* CSDateCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FED40431D2D6EF6002B594C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE27E4C1D3551F100EF124E /* CSObjectTests.swift in Sources */,
+				2FED40541D2D6FDA002B594C /* CSFieldSetTests.swift in Sources */,
+				2FC252731D34522E00496EAC /* CSPageLayoutTests.swift in Sources */,
+				2F12124B1D2EADB5000A5703 /* CSFieldLayoutTests.swift in Sources */,
+				2FED40531D2D6FD8002B594C /* CSQueryBuilderTests.swift in Sources */,
+				2F1212491D2EABAF000A5703 /* CSRecordTypeTests.swift in Sources */,
+				2FDA93E91D39CD9E003FE4EA /* NSURLTests.swift in Sources */,
+				2F14A3921D42E3D10084BBCA /* CSAddressTests.swift in Sources */,
+				2FED40521D2D6FD6002B594C /* CSRecordTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A479BAC51E9D768C0084B496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E24EFB1E9EBA6200407172 /* CSPickListValue.swift in Sources */,
+				A4E24ECD1E9EBA6200407172 /* CSFieldCell.swift in Sources */,
+				A4E24ED51E9EBA6200407172 /* CSFieldSet.swift in Sources */,
+				A4E24EEF1E9EBA6200407172 /* CSPersonNameCell.swift in Sources */,
+				A4E24EC91E9EBA6200407172 /* CSExtraTypeInfo.swift in Sources */,
+				A4E24F171E9EBA6200407172 /* CSReferenceCell.swift in Sources */,
+				A4E24EE31E9EBA6200407172 /* CSLayoutSection.swift in Sources */,
+				A4E24EFD1E9EBA6200407172 /* CSQueryBuilder.swift in Sources */,
+				A4E24F311E9EBA6200407172 /* NSDateFormatter.swift in Sources */,
+				A4E24F071E9EBA6200407172 /* CSRecordDetailViewController.swift in Sources */,
+				A4E24EDD1E9EBA6200407172 /* CSLayoutComponent.swift in Sources */,
+				A4E24EB11E9EBA6200407172 /* CSBooleanCell.swift in Sources */,
+				A4E24EF71E9EBA6200407172 /* CSPickListCell.swift in Sources */,
+				EE2B1D231EC0F7000054EDC9 /* CSGeolocationCell.swift in Sources */,
+				A4E24EB91E9EBA6200407172 /* CSDateCell.swift in Sources */,
+				A4E24F131E9EBA6200407172 /* CSRecordUpdateViewController.swift in Sources */,
+				A4E24F2F1E9EBA6200407172 /* NSDate.swift in Sources */,
+				A4E24ED31E9EBA6200407172 /* CSFieldLayout.swift in Sources */,
+				A4E24EE91E9EBA6200407172 /* CSPercentCell.swift in Sources */,
+				A4E24ED91E9EBA6200407172 /* CSIntegerCell.swift in Sources */,
+				A4E24F291E9EBA6200407172 /* CSTheme.swift in Sources */,
+				A4E24EC11E9EBA6200407172 /* CSDoubleCell.swift in Sources */,
+				A4E24F371E9EBA6200407172 /* NSURL.swift in Sources */,
+				A4E24EE51E9EBA6200407172 /* CSObject.swift in Sources */,
+				A4E24F1F1E9EBA6200407172 /* CSStoreManager.swift in Sources */,
+				A4E24F151E9EBA6200407172 /* CSRecordViewController.swift in Sources */,
+				EE2B1D191EC0DFC60054EDC9 /* CSGeolocation.swift in Sources */,
+				A4E24EBD1E9EBA6200407172 /* CSDateTimeCell.swift in Sources */,
+				A4E24F091E9EBA6200407172 /* CSRecordListViewController.swift in Sources */,
+				A4E24F011E9EBA6200407172 /* CSRecordCell.swift in Sources */,
+				A4E24F111E9EBA6200407172 /* CSRecordType.swift in Sources */,
+				A4E24EAB1E9EBA6200407172 /* CSAddress.swift in Sources */,
+				A4E24ECB1E9EBA6200407172 /* CSField.swift in Sources */,
+				A4E24F351E9EBA6200407172 /* NSDictionary+LowercasedKeys.m in Sources */,
+				A4E24F251E9EBA6200407172 /* CSTextAreaCell.swift in Sources */,
+				A4E24ED71E9EBA6200407172 /* CSFieldType.swift in Sources */,
+				A4E24F0F1E9EBA6200407172 /* CSRecordLookupViewController.swift in Sources */,
+				A4E24F1B1E9EBA6200407172 /* CSSettings.swift in Sources */,
+				A4E24EC51E9EBA6200407172 /* CSEmailCell.swift in Sources */,
+				A4E24EAD1E9EBA6200407172 /* CSAddressCell.swift in Sources */,
+				A4CCC7CC1EB03E3600002670 /* CSRecordStoreBase.swift in Sources */,
+				A4E24EF31E9EBA6200407172 /* CSPhoneCell.swift in Sources */,
+				A4E24EED1E9EBA6200407172 /* CSPersonName.swift in Sources */,
+				A4B356431EA006340017B21F /* CSValidationInfo.swift in Sources */,
+				A407BB9E1EA7B4120022363E /* HerokuSyncUpTarget.swift in Sources */,
+				A4E24EDF1E9EBA6200407172 /* CSLayoutItem.swift in Sources */,
+				A4E24F391E9EBA6200407172 /* SFLocalizedString.swift in Sources */,
+				A4E24EB51E9EBA6200407172 /* CSCurrencyCell.swift in Sources */,
+				A4E24F2B1E9EBA6200407172 /* CSUrlCell.swift in Sources */,
+				A4B356401EA005EA0017B21F /* CSRecordCreateViewController.swift in Sources */,
+				A479BB271E9D79340084B496 /* HerokuSyncDownTarget.swift in Sources */,
+				A4E24F1D1E9EBA6200407172 /* CSSettingsStoreProtocol.swift in Sources */,
+				A4E24F0B1E9EBA6200407172 /* CSRecordLookupCell.swift in Sources */,
+				A4E24ED11E9EBA6200407172 /* CSFieldDetail.swift in Sources */,
+				A4E24F211E9EBA6200407172 /* CSStringCell.swift in Sources */,
+				A4E24EE71E9EBA6200407172 /* CSPageLayout.swift in Sources */,
+				A4E24EFF1E9EBA6200407172 /* CSRecordBase.swift in Sources */,
+				A4E24EE11E9EBA6200407172 /* CSLayoutRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FED404E1D2D6EF6002B594C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FA015751D1DD313009DB715 /* CSMobileBase */;
+			targetProxy = 2FED404D1D2D6EF6002B594C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FA015881D1DD313009DB715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2FA015891D1DD313009DB715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2FA0158B1D1DD313009DB715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B78F55CE2A55BE94056C28EC /* Pods-CSMobileBase.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CSMobileBase/Salesforce/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"CocoaLumberjack\"",
+					"-framework",
+					"\"DesignSystem\"",
+					"-framework",
+					"\"KNSemiModalViewController_hons82\"",
+					"-framework",
+					"\"SQLCipher\"",
+					"-framework",
+					"\"SalesforceSDKCore\"",
+					"-framework",
+					"\"SmartStore\"",
+					"-framework",
+					"\"SmartSync\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"THCalendarDatePicker\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.textron.CSMobileBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2FA0158C1D1DD313009DB715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7880678FC5EF65DC56B1F97A /* Pods-CSMobileBase.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CSMobileBase/Salesforce/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"CocoaLumberjack\"",
+					"-framework",
+					"\"DesignSystem\"",
+					"-framework",
+					"\"KNSemiModalViewController_hons82\"",
+					"-framework",
+					"\"SQLCipher\"",
+					"-framework",
+					"\"SalesforceSDKCore\"",
+					"-framework",
+					"\"SmartStore\"",
+					"-framework",
+					"\"SmartSync\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"THCalendarDatePicker\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.textron.CSMobileBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2FED40501D2D6EF6002B594C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E422F420677016079D0162B0 /* Pods-CSMobileBaseTests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = CSMobileBaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.CSMobileBaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CSMobileBaseTests/CSMobileBaseTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2FED40511D2D6EF6002B594C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 413EE215A768095480FF38A1 /* Pods-CSMobileBaseTests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = CSMobileBaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.CSMobileBaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CSMobileBaseTests/CSMobileBaseTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A479BB201E9D768C0084B496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B14635C7AFD8744440163D43 /* Pods-CSMobileBase_Heroku.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$PODS_CONFIGURATION_BUILD_DIR/CocoaLumberjack\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/DesignSystem\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/KNSemiModalViewController_hons82\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MUPullToRefresh\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/RxSwift\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SQLCipher\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SalesforceAnalytics\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SalesforceSDKCore\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SmartStore\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SmartSync\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/THCalendarDatePicker\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CSMobileBase/Heroku/CSMobileBase copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"CocoaLumberjack\"",
+					"-framework",
+					"\"DesignSystem\"",
+					"-framework",
+					"\"KNSemiModalViewController_hons82\"",
+					"-framework",
+					"\"SQLCipher\"",
+					"-framework",
+					"\"SalesforceSDKCore\"",
+					"-framework",
+					"\"SmartStore\"",
+					"-framework",
+					"\"SmartSync\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"THCalendarDatePicker\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.textron.CSMobileBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = YES;
+			};
+			name = Debug;
+		};
+		A479BB211E9D768C0084B496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000C01B14E45CD55A3292B05 /* Pods-CSMobileBase_Heroku.release.xcconfig */;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "CSMobileBase/Heroku/CSMobileBase copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"CocoaLumberjack\"",
+					"-framework",
+					"\"DesignSystem\"",
+					"-framework",
+					"\"KNSemiModalViewController_hons82\"",
+					"-framework",
+					"\"SQLCipher\"",
+					"-framework",
+					"\"SalesforceSDKCore\"",
+					"-framework",
+					"\"SmartStore\"",
+					"-framework",
+					"\"SmartSync\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"THCalendarDatePicker\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.textron.CSMobileBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FA015701D1DD313009DB715 /* Build configuration list for PBXProject "CSMobileBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA015881D1DD313009DB715 /* Debug */,
+				2FA015891D1DD313009DB715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FA0158A1D1DD313009DB715 /* Build configuration list for PBXNativeTarget "CSMobileBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA0158B1D1DD313009DB715 /* Debug */,
+				2FA0158C1D1DD313009DB715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FED404F1D2D6EF6002B594C /* Build configuration list for PBXNativeTarget "CSMobileBaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FED40501D2D6EF6002B594C /* Debug */,
+				2FED40511D2D6EF6002B594C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A479BB1F1E9D768C0084B496 /* Build configuration list for PBXNativeTarget "CSMobileBase_Heroku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A479BB201E9D768C0084B496 /* Debug */,
+				A479BB211E9D768C0084B496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FA0156D1D1DD313009DB715 /* Project object */;
+}

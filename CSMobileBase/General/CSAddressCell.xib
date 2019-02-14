@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CSAddressCell" id="PRm-lP-NsM" customClass="CSAddressCell" customModule="CSMobileBase" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="432" height="185"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PRm-lP-NsM" id="8px-em-98h">
+                <rect key="frame" x="0.0" y="0.0" width="432" height="184.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LABEL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jwX-7g-OC6">
+                        <rect key="frame" x="18" y="20" width="345.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Required" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c05-5G-GcL">
+                        <rect key="frame" x="361.5" y="20" width="50.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="1 Market Street" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eJ1-Uq-sc2">
+                        <rect key="frame" x="20" y="43.5" width="392" height="30"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                        <connections>
+                            <outlet property="delegate" destination="PRm-lP-NsM" id="ZCJ-L3-6cd"/>
+                        </connections>
+                    </textField>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="752" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="San Francisco" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Twt-Zr-m1O">
+                        <rect key="frame" x="20" y="81" width="241" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="200" id="QOG-rg-Y6p"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                        <connections>
+                            <outlet property="delegate" destination="PRm-lP-NsM" id="DJu-CP-hoK"/>
+                        </connections>
+                    </textField>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="751" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="CA" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UrX-Q8-fly">
+                        <rect key="frame" x="269" y="80" width="38" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="Czm-yP-9wn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                        <connections>
+                            <outlet property="delegate" destination="PRm-lP-NsM" id="cus-5c-RCk"/>
+                        </connections>
+                    </textField>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GMa-uL-R0g">
+                        <rect key="frame" x="20" y="119.5" width="392" height="30"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                        <connections>
+                            <outlet property="delegate" destination="PRm-lP-NsM" id="oug-61-oZx"/>
+                        </connections>
+                    </textField>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="94105" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zLa-2m-6iQ">
+                        <rect key="frame" x="319" y="80" width="93" height="30"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                        <connections>
+                            <outlet property="delegate" destination="PRm-lP-NsM" id="aFs-it-PwN"/>
+                        </connections>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="GMa-uL-R0g" firstAttribute="leading" secondItem="8px-em-98h" secondAttribute="leading" constant="20" id="3Rd-9v-DRh"/>
+                    <constraint firstItem="jwX-7g-OC6" firstAttribute="leading" secondItem="8px-em-98h" secondAttribute="leading" constant="18" id="52Y-Af-dP3"/>
+                    <constraint firstAttribute="trailing" secondItem="zLa-2m-6iQ" secondAttribute="trailing" constant="20" id="5Aj-Qc-gs2"/>
+                    <constraint firstItem="c05-5G-GcL" firstAttribute="leading" secondItem="jwX-7g-OC6" secondAttribute="trailing" id="FVU-C2-WTE"/>
+                    <constraint firstItem="eJ1-Uq-sc2" firstAttribute="leading" secondItem="8px-em-98h" secondAttribute="leading" constant="20" id="I1O-qa-QOC"/>
+                    <constraint firstAttribute="trailing" secondItem="GMa-uL-R0g" secondAttribute="trailing" constant="20" id="IFK-lC-pYh"/>
+                    <constraint firstItem="Twt-Zr-m1O" firstAttribute="leading" secondItem="eJ1-Uq-sc2" secondAttribute="leading" id="PBM-Yb-ihx"/>
+                    <constraint firstItem="Twt-Zr-m1O" firstAttribute="top" secondItem="eJ1-Uq-sc2" secondAttribute="bottom" constant="8" id="PSb-Zl-hcP"/>
+                    <constraint firstItem="eJ1-Uq-sc2" firstAttribute="top" secondItem="jwX-7g-OC6" secondAttribute="bottom" constant="4" id="cVs-6r-ew3"/>
+                    <constraint firstItem="zLa-2m-6iQ" firstAttribute="top" secondItem="eJ1-Uq-sc2" secondAttribute="bottom" constant="8" id="inJ-hb-kax"/>
+                    <constraint firstItem="jwX-7g-OC6" firstAttribute="top" secondItem="8px-em-98h" secondAttribute="top" constant="20" id="mLz-Ae-lcP"/>
+                    <constraint firstItem="c05-5G-GcL" firstAttribute="bottom" secondItem="jwX-7g-OC6" secondAttribute="bottom" id="nmu-gY-YLu"/>
+                    <constraint firstAttribute="trailing" secondItem="eJ1-Uq-sc2" secondAttribute="trailing" constant="20" id="sVT-Xh-f10"/>
+                    <constraint firstItem="GMa-uL-R0g" firstAttribute="top" secondItem="Twt-Zr-m1O" secondAttribute="bottom" constant="8" id="sxm-ID-KBm"/>
+                    <constraint firstItem="UrX-Q8-fly" firstAttribute="leading" secondItem="Twt-Zr-m1O" secondAttribute="trailing" constant="8" id="tb9-LM-8mt"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="GMa-uL-R0g" secondAttribute="bottom" constant="10" id="uMm-dV-LVv"/>
+                    <constraint firstAttribute="trailing" secondItem="c05-5G-GcL" secondAttribute="trailing" constant="20" id="wx8-kv-SPG"/>
+                    <constraint firstItem="UrX-Q8-fly" firstAttribute="top" secondItem="eJ1-Uq-sc2" secondAttribute="bottom" constant="8" id="zIi-LK-2Mw"/>
+                    <constraint firstItem="zLa-2m-6iQ" firstAttribute="leading" secondItem="UrX-Q8-fly" secondAttribute="trailing" constant="8" id="zty-5k-4nF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cityTextField" destination="Twt-Zr-m1O" id="exk-WD-P67"/>
+                <outlet property="countryCodeTextField" destination="GMa-uL-R0g" id="33g-to-gVU"/>
+                <outlet property="label" destination="jwX-7g-OC6" id="nlK-fu-DFp"/>
+                <outlet property="postalCodeTextField" destination="zLa-2m-6iQ" id="fJJ-IK-mRX"/>
+                <outlet property="requiredLabel" destination="c05-5G-GcL" id="W5Y-3P-fqU"/>
+                <outlet property="stateCodeTextField" destination="UrX-Q8-fly" id="Nk0-ML-TMN"/>
+                <outlet property="streetTextField" destination="eJ1-Uq-sc2" id="qKL-5Y-3Iq"/>
+            </connections>
+            <point key="canvasLocation" x="-1305" y="-3735.5"/>
+        </tableViewCell>
+    </objects>
+</document>

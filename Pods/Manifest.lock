@@ -1,0 +1,91 @@
+PODS:
+  - CocoaLumberjack (2.4.0):
+    - CocoaLumberjack/Default (= 2.4.0)
+    - CocoaLumberjack/Extensions (= 2.4.0)
+  - CocoaLumberjack/Core (2.4.0)
+  - CocoaLumberjack/Default (2.4.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.4.0):
+    - CocoaLumberjack/Default
+  - DesignSystem (2.0.8)
+  - KNSemiModalViewController_hons82 (0.4.5)
+  - MUPullToRefresh (1.0.1)
+  - ReachabilitySwift (3)
+  - RxSwift (3.4.0)
+  - SalesforceAnalytics (5.0.1):
+    - SalesforceAnalytics/SalesforceAnalytics (= 5.0.1)
+  - SalesforceAnalytics/SalesforceAnalytics (5.0.1)
+  - SalesforceSDKCore (5.0.1):
+    - SalesforceSDKCore/SalesforceSDKCore (= 5.0.1)
+  - SalesforceSDKCore/SalesforceSDKCore (5.0.1):
+    - CocoaLumberjack (~> 2.4.0)
+    - SalesforceAnalytics
+    - SalesforceSDKCore/SalesforceSDKCore/arc (= 5.0.1)
+    - SalesforceSDKCore/SalesforceSDKCore/base (= 5.0.1)
+    - SalesforceSDKCore/SalesforceSDKCore/no-arc (= 5.0.1)
+  - SalesforceSDKCore/SalesforceSDKCore/arc (5.0.1):
+    - CocoaLumberjack (~> 2.4.0)
+    - SalesforceAnalytics
+    - SalesforceSDKCore/SalesforceSDKCore/base
+    - SalesforceSDKCore/SalesforceSDKCore/no-arc
+  - SalesforceSDKCore/SalesforceSDKCore/base (5.0.1):
+    - CocoaLumberjack (~> 2.4.0)
+    - SalesforceAnalytics
+  - SalesforceSDKCore/SalesforceSDKCore/no-arc (5.0.1):
+    - CocoaLumberjack (~> 2.4.0)
+    - SalesforceAnalytics
+    - SalesforceSDKCore/SalesforceSDKCore/base
+  - SmartStore (5.0.1):
+    - SmartStore/SmartStore (= 5.0.1)
+  - SmartStore/SmartStore (5.0.1):
+    - SalesforceSDKCore
+    - SQLCipher/fts (~> 3.4.0)
+  - SmartSync (5.0.1):
+    - SmartSync/SmartSync (= 5.0.1)
+  - SmartSync/SmartSync (5.0.1):
+    - SalesforceSDKCore
+    - SmartStore
+  - SQLCipher (3.4.1):
+    - SQLCipher/standard (= 3.4.1)
+  - SQLCipher/common (3.4.1)
+  - SQLCipher/fts (3.4.1):
+    - SQLCipher/common
+  - SQLCipher/standard (3.4.1):
+    - SQLCipher/common
+  - SwiftyJSON (3.1.4)
+  - THCalendarDatePicker (1.2.8):
+    - KNSemiModalViewController_hons82 (~> 0.4.5)
+
+DEPENDENCIES:
+  - CocoaLumberjack (= 2.4.0)
+  - DesignSystem (= 2.0.8)
+  - KNSemiModalViewController_hons82 (= 0.4.5)
+  - MUPullToRefresh (= 1.0.1)
+  - ReachabilitySwift (= 3.0.0)
+  - RxSwift (= 3.4.0)
+  - SalesforceAnalytics (= 5.0.1)
+  - SalesforceSDKCore (= 5.0.1)
+  - SmartStore (= 5.0.1)
+  - SmartSync (= 5.0.1)
+  - SQLCipher (= 3.4.1)
+  - SwiftyJSON (= 3.1.4)
+  - THCalendarDatePicker (= 1.2.8)
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: aa9dcab71bdf9eaf2a63bbd9ddc87863efe45457
+  DesignSystem: 0777e9c9eec974d02334461735c6d95552341b59
+  KNSemiModalViewController_hons82: 0ef0ef5ed7c3814ddd0fa9c884ab74d5495de16b
+  MUPullToRefresh: 23b9df4b9711f33bddc8d90ef7da43787a45cb67
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  RxSwift: 3789a1af753002a14edecdb698a2424624296a9c
+  SalesforceAnalytics: 06342e1213497bc18dd895fda1c687e946569673
+  SalesforceSDKCore: 2b47db92f2ceac10400bebffcbbf2300b84dc97f
+  SmartStore: 707e07e975d754e6ed6cda43e7e1513a4a791c8d
+  SmartSync: 5106d09cf144421a1e44bab5ceb4dd795d7379fb
+  SQLCipher: 43d12c0eb9c57fb438749618fc3ce0065509a559
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  THCalendarDatePicker: fd1a1103ae0d1d1f2d0f9a1463a3f628a23a25a5
+
+PODFILE CHECKSUM: 83d3a6c9166830f0b4e5938b3b1e120f18921be8
+
+COCOAPODS: 1.2.0
