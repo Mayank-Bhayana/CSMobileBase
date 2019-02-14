@@ -1,0 +1,48 @@
+{
+  "name": "CSMobileBase",
+  "version": "3.0.4",
+  "summary": "A convenience CocoaPod that extends the SmartStore and SmartSync functionality.",
+  "description": "'CSMobileBase is a CocoaPod that uses the storing and syncing of data offline and online features by extending the functionality of SmartStore and SmartSync.'",
+  "homepage": "https://github.com/MayankBhayana/CSMobileBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mbhayana@textron.com": "mbhayana@textron.com"
+  },
+  "source": {
+    "git": "https://github.com/MayankBhayana/CSMobileBase.git",
+    "tag": "3.0.4"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CSMobileBase/Classes/*.{swift,h,m}",
+  "dependencies": {
+    "CocoaLumberjack": [
+      "~> 2.3.0"
+    ],
+    "SwiftyJSON": [
+      "~> 3.0.0"
+    ],
+    "SmartSync": [
+      "~> 4.3.0"
+    ],
+    "SmartStore": [
+      "~> 4.3.0"
+    ],
+    "SalesforceSDKCore": [
+      "~> 4.3.0"
+    ],
+    "SalesforceRestAPI": [
+      "~> 4.3.0"
+    ],
+    "SalesforceNetwork": [
+      "~> 4.3.0"
+    ],
+    "SQLCipher": [
+      "~> 3.4.2"
+    ]
+  }
+}

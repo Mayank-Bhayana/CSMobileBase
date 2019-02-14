@@ -1,0 +1,10 @@
+framework module CSMobileBase {
+  umbrella header "CSMobileBase-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module CSMobileBase.Swift {
+    header "CSMobileBase-Swift.h"
+}

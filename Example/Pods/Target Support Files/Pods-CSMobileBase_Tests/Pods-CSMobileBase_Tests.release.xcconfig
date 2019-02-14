@@ -1,0 +1,8 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CSMobileBase" "${PODS_CONFIGURATION_BUILD_DIR}/CocoaLumberjack" "${PODS_CONFIGURATION_BUILD_DIR}/SQLCipher" "${PODS_CONFIGURATION_BUILD_DIR}/SalesforceNetwork" "${PODS_CONFIGURATION_BUILD_DIR}/SalesforceRestAPI" "${PODS_CONFIGURATION_BUILD_DIR}/SalesforceSDKCore" "${PODS_CONFIGURATION_BUILD_DIR}/SmartStore" "${PODS_CONFIGURATION_BUILD_DIR}/SmartSync" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/CSMobileBase/CSMobileBase.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/CocoaLumberjack/CocoaLumberjack.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SQLCipher/SQLCipher.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SalesforceNetwork/SalesforceNetwork.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SalesforceRestAPI/SalesforceRestAPI.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SalesforceSDKCore/SalesforceSDKCore.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SmartStore/SmartStore.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SmartSync/SmartSync.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON/SwiftyJSON.framework/Headers"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

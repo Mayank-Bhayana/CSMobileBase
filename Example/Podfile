@@ -1,0 +1,32 @@
+source 'https://github.com/forcedotcom/SalesforceMobileSDK-iOS-Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+def installed_pods
+    pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git', :tag => '3.0.0'
+    pod 'CocoaLumberjack', '~> 2.3.0'
+    pod 'SmartSync', '~> 4.3.0'
+    pod 'SmartStore', '~> 4.3.0'
+    pod 'SalesforceSDKCore', '~> 4.3.0'
+    pod 'SalesforceRestAPI', '~> 4.3.0'
+    pod 'SalesforceNetwork', '~> 4.3.0'
+    pod 'SQLCipher', '~> 3.4.2'
+    # pod install --exclude-pods=FMDB
+    # pod install --exclude-pods=SalesforceAnalytics
+end
+
+target 'CSMobileBase_Example' do
+    pod 'CSMobileBase', :path => '../'
+    installed_pods
+    
+    target 'CSMobileBase_Tests' do
+        inherit! :search_paths
+        
+        
+    end
+end
+
+#post_install do | installer |
+#   print "SQLCipher: link Pods/Headers/sqlite3.h"
+#   system "mkdir -p Pods/Headers/Private && ln -s ../../SQLCipher/sqlite3.h Pods/Headers/Private"
+#end
